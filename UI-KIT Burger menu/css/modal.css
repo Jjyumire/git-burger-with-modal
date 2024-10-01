@@ -1,14 +1,15 @@
 
-h2 {
-    color: white
-}
-
 .open {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    row-gap: 20px;
     padding: 20px 30px;
     border-radius: 20px;
     background-color: rgb(70, 184, 246);
     color: white;
     border: none;
+    cursor: pointer;
 }
 
 .wrap {
