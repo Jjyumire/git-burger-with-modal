@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/burger.css" />
+    <link rel="stylesheet" href="./css/modal.css">
     <link rel="stylesheet" href="./css/media.css" />
   </head>
 
@@ -36,6 +37,28 @@
       <div class="backdrop"></div>
     </header>
 
+    <div class="wrap">
+      <button class="open">Open</button>
+    </div>
+
+    <div class="modal-backdrop">
+      <div class="modal">
+          <div class="modal__header">
+              <h2>title</h2>
+              <div class="close">X</div>
+          </div>
+          <div class="modal-content">
+              <input type="text">
+              <input type="text">
+              <button class="apply">Apply</button>
+          </div>
+          <div class="modal-greeting">
+              <h2>Thank you for apply</h2>
+          </div>
+      </div>
+  </div>
+
+
     <section id="goods">goods</section>
     <section id="address">address</section>
     <section id="contacts">contacts</section>
@@ -43,7 +66,6 @@
     <footer id="footer">footer</footer>
 
     <script src="./js/burger.js"></script>
-    <!-- <script src="./js/script1.js"></script>
-    <script src="./js/script2.js"></script> -->
+    <script src="./js/modal.js"></script>
   </body>
 </html>
